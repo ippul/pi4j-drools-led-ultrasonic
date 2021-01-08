@@ -1,6 +1,6 @@
 = pi4j-drools-led-ultrasonic
 
-Show how to use an ultrasonic sensor to read distance and blink a LED
+Show how to use an ultrasonic sensor to read distance and blink a LED.
 The blink frequency depends on the distance and is calculated using the rule:
 ```
 rule "led blink"
@@ -20,7 +20,7 @@ end
 ```
 
 == Try it
-* image::images/circuit.svg[]
+* image::images/circuit.svg[Static,300]
 * Refer to https://pi4j.com/1.2/install.html to install PI4J
 * clone this repo on raspberry pi
 * mvn exec:java -Dexec.mainClass="org.ippul.pi4j.examples.DroolsExample"
