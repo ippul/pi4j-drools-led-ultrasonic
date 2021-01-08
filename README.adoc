@@ -20,7 +20,7 @@ end
 ```
 
 == Try it
-* image::images/circuit.svg[Static,300]
+image::images/circuit.svg[Static,600]
 * Refer to https://pi4j.com/1.2/install.html to install PI4J
 * clone this repo on raspberry pi
 * mvn exec:java -Dexec.mainClass="org.ippul.pi4j.examples.DroolsExample"
