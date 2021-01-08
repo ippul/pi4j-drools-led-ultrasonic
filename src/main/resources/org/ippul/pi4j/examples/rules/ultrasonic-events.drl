@@ -12,8 +12,6 @@ rule "led blink"
     then
         double $distance = UltrasonicUtils.calculateDistance($read);
         long $newBlinkValue = Double.valueOf(($distance * 1000)/2).longValue();
-        System.out.println("Old blink value: " + $blink.getInterval());
-        System.out.println("New blink value: " + $newBlinkValue);
         if($newBlinkValue != $blink.getInterval()){
             $blink.setInterval($newBlinkValue);
             update($blink);
