@@ -1,6 +1,7 @@
 package org.ippul.pi4j.examples;
 
 import com.pi4j.io.gpio.*;
+import org.ippul.pi4j.examples.drools.DroolsExample;
 import org.ippul.pi4j.examples.model.UltrasonicRead;
 
 import java.util.concurrent.atomic.AtomicInteger;

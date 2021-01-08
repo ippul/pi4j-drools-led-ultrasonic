@@ -1,11 +1,9 @@
-package org.ippul.pi4j.examples;
+package org.ippul.pi4j.examples.drools;
 
 import org.ippul.pi4j.examples.model.Blink;
 import org.ippul.pi4j.examples.model.UltrasonicRead;
 import org.kie.api.KieServices;
-import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
-import org.kie.api.runtime.rule.FactHandle;
 
 import java.io.Closeable;
 import java.io.IOException;

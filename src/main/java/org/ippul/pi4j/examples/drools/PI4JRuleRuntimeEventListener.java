@@ -1,4 +1,4 @@
-package org.ippul.pi4j.examples;
+package org.ippul.pi4j.examples.drools;
 
 import com.pi4j.io.gpio.*;
 import org.ippul.pi4j.examples.model.Blink;

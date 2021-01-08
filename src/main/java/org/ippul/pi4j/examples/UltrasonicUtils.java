@@ -8,7 +8,7 @@ public class UltrasonicUtils {
 
     public static int calculateDistance(UltrasonicRead read){
         double distance = ((((read.getEndTime()-read.getStartTime())/1e3)/2) / 29.1);
-        return Double.valueOf(distance).intValue(); // Math.round(distance * 100.0) / 100.0;
+        return Double.valueOf(distance).intValue();
     }
 
     public static void trigger(GpioPinDigitalOutput sensorTriggerPin) {
