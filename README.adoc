@@ -1,7 +1,7 @@
 = pi4j-drools-led-ultrasonic
 
 Show how to use an ultrasonic sensor to read distance and blink a LED.
-The blink frequency depends on the distance and is calculated using the rule:
+The blink frequency depends on the distance and is calculated using the following rule:
 ```
 rule "led blink"
     dialect "java"
